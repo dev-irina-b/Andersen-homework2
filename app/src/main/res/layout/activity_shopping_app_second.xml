@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".shoppingapp.ShoppingAppSecondActivity">
+
+    <Button
+        android:id="@+id/milk_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addMilk"
+        android:text="@string/button_milk" />
+
+    <Button
+        android:id="@+id/rice_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addRice"
+        android:text="@string/button_rice" />
+
+    <Button
+        android:id="@+id/apples_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addApples"
+        android:text="@string/button_apples" />
+
+    <Button
+        android:id="@+id/button_cheese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addCheese"
+        android:text="@string/button_cheese" />
+
+    <Button
+        android:id="@+id/button_bread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addBread"
+        android:text="@string/button_bread" />
+
+    <Button
+        android:id="@+id/button_potato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addPotato"
+        android:text="@string/button_potato" />
+
+    <Button
+        android:id="@+id/button_carrot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addCarrot"
+        android:text="@string/button_carrot" />
+
+    <Button
+        android:id="@+id/button_onion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addOnion"
+        android:text="@string/button_onion" />
+
+    <Button
+        android:id="@+id/button_tomato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addTomato"
+        android:text="@string/button_tomato" />
+
+    <Button
+        android:id="@+id/button_bananas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addBananas"
+        android:text="@string/button_bananas" />
+</LinearLayout>
